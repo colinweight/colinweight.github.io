@@ -11,9 +11,16 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    {% if post.subtitle != null %}
+    <h5>{{ post.subtitle }}</h5>
+    {% endif %}
+
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+    <a href="{{ post.url }}">
+      More&hellip;
+    </a>
   </div>
   {% endfor %}
 </div>

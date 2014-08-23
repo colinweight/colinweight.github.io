@@ -12,6 +12,8 @@ tagline:          'Ruby and other dizzy stuff'
 url:              http://colinweight.com
 baseurl:          '/'
 paginate:         5
+timezone:         Australia/Melbourne
+excerpt_separator: <!--more-->
 
 author:
   name:           'Colin Weight'
