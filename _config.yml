@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Colin on Dev'
+tagline:          'Ruby and other dizzy stuff'
+#description:      ''
+url:              http://colinweight.com
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Colin Weight'
+  url:            https://twitter.com/mdo
+
+# Custom vars
+version:          1.0.0
+github_username:  colinweight
+gravatar_link:    https://s.gravatar.com/avatar/faf310ea63ca512edacedd5e6c19487f
