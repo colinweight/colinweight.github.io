@@ -7,6 +7,7 @@ comments: true
 Yikes, it's been a while since I posted. I've been flat out busy, but I'll try harder, as writing is therapeutic and who knows, someone may find this useful.
 
 [PaperTrail](https://github.com/airblade/paper_trail) is a great Ruby gem, and I use it on quite a few of the key models in the Rails project I'm currently working on. According to the ReadMe, "It's good for auditing or versioning", and it is. My prime motivation for using it was for auditing, to know that we can see who did what to a model over it's lifetime. Today (beware the ides of March) it also served as a powerful debugging tool too.
+<!--more-->
 
 To explain, let's look at an `Order` model. In this model we need to know what currency the order will be made in, how much the order is for, and how much of a discount we might offer (this is a simplification to illustrate the point). Using another excellent gem, [Money-Rails](https://github.com/RubyMoney/money-rails), I set up the `amount_cents`, `discount_cents` and `currency` attributes:
 
