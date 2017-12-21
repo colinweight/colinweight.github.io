@@ -33,10 +33,6 @@ p {
   line-height: 1.4;
 }
 
-ul li {
-  margin-bottom: 10px;
-}
-
 header {
   display: flex;
   justify-content: center;
@@ -59,8 +55,22 @@ a {
 
 hr {
   margin-top: 30px;
-  width: 80%;
+  width: 70%;
   color: #c5c5c5;
+}
+
+.tech {
+  padding-top: 20px;
+}
+
+.techList {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around
+}
+
+ul li {
+  margin-bottom: 10px;
 }
 
 @media only screen
